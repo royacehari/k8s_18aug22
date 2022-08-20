@@ -13,3 +13,5 @@
       spec:
       - name: mylogin-container
         image: maha4iac/myonlinebooking:2
+        ports:
+          - containerPort: 8080
